@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'project.apps.ProjectConfig',
+    'Award.apps.AwardConfig',
     'tinymce',
     'django_registration',
     'bootstrap4',
