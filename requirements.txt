@@ -20,7 +20,7 @@ psycopg2==2.8.4
 pylint==2.4.4
 python-decouple==3.3
 pytz==2019.3
-six==1.13.0
+
 soupsieve==1.9.5
 sqlparse==0.3.0
 swapper==1.1.2.post1
