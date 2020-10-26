@@ -84,7 +84,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Award.wsgi.application'
+WSGI_APPLICATION = 'project.wsgi.application'
 
 
 
