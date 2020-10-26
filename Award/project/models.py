@@ -1,4 +1,5 @@
 from django.db import models
+from jsonfield import JSONField
 from django.contrib.auth.models import User
 from django.contrib.contenttypes.fields import GenericRelation
 from django.urls import reverse
@@ -87,3 +88,7 @@ class Review(models.Model):
         total = (design_score + usability_score + content_score)%0.33 
 
         return total
+
+    
+class MyModel(models.Model):
+    json = JSONField()    
