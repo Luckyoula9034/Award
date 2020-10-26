@@ -1,5 +1,5 @@
 from django.db import models
-from jsonfield import JSONField
+
 from django.contrib.auth.models import User
 from django.contrib.contenttypes.fields import GenericRelation
 from django.urls import reverse
@@ -90,5 +90,4 @@ class Review(models.Model):
         return total
 
     
-class MyModel(models.Model):
-    json = JSONField()    
+ 
