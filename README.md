@@ -7,7 +7,7 @@
 
 ## Project Description
 
-- Basicaly the app allow users to view project and rate them
+- Basically the app allow users to view project and rate them
 
 ## Technologies Used
 
