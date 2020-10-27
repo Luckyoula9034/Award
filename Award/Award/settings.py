@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-
+import django_heroku 
 import dj_database_url 
 from decouple import config
 
@@ -154,7 +154,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 LOGOUT_REDIRECT_URL = '/'
 LOGIN_REDIRECT_URL = '/'
 
-django_heroku.settings(locals())
+django_heroku.settings(config=locals(), staticfiles=False,logging=False)
 
 
 
