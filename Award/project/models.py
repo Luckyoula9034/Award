@@ -29,6 +29,7 @@ class Profile(models.Model):
     bio = models.TextField(blank=True)
     profile_pic = models.ImageField(blank=True)
     objects = models.Manager()
+    
 
 
     class Meta:
